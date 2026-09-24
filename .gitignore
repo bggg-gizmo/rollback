@@ -1,0 +1,9 @@
+out/
+dist/
+.sdk/
+.signing/
+*.jks
+*.keystore
+.DS_Store
+branding/rollbacker-icon-source.jpg
+app/src/main/res/drawable/rollbacker_art.png

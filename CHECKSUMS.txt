@@ -1,0 +1,6 @@
+# Roll Backer 1.0.1 public release checksums
+# Developer and publisher: Background Gremlin Group
+
+b7942541168f9cf47ec812c3286c4a64f5c18757e9cab55685444af969857fa1  release/v1.0.1/RollBacker-1.0.1-audited-final.apk
+06d8d5fee7f9cdafe6ac297e41ec69101f76f23f1460284bb93db45a3f0d40c9  branding/rollbacker-icon-source.jpg
+efe8cae52cfd282c208781ab84779fb009f5ae30878752a50d6c6531dad9c557  app/src/main/res/drawable/rollbacker_art.png

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Roll Backer</string>
+    <string name="app_description">Versioned APK snapshot vault and rollback utility.</string>
+    <string name="developer_name">Background Gremlin Group</string>
+    <string name="publisher_name">Background Gremlin Group</string>
+    <string name="tagline">Creating Unique Tools for Unique Individuals.</string>
+    <string name="copyright_notice">Copyright © 2026 Background Gremlin Group. All rights reserved.</string>
+</resources>

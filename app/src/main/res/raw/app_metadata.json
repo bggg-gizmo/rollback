@@ -1,0 +1,15 @@
+{
+  "name": "Roll Backer",
+  "packageName": "group.backgroundgremlin.rollbacker",
+  "versionName": "1.0.1",
+  "versionCode": 2,
+  "developer": "Background Gremlin Group",
+  "publisher": "Background Gremlin Group",
+  "tagline": "Creating Unique Tools for Unique Individuals.",
+  "copyright": "Copyright © 2026 Background Gremlin Group. All rights reserved.",
+  "description": "Versioned APK snapshot vault and rollback utility.",
+  "minimumAndroidApi": 26,
+  "targetAndroidApi": 36,
+  "brandArtwork": "branding/roll-backer-icon.jpg",
+  "brandArtworkSha256": "06d8d5fee7f9cdafe6ac297e41ec69101f76f23f1460284bb93db45a3f0d40c9"
+}

@@ -1,7 +1,7 @@
 # Roll Backer 1.0.1
 
-**Latest and only public release: 1.0.1**  
-[Download the audited APK](release/v1.0.1/RollBacker-1.0.1-audited-final.apk) · [Download the source archive](release/v1.0.1/RollBacker-1.0.1-source-final.zip) · [Release notes](RELEASE_NOTES_1.0.1.md)
+**Current public release: 1.0.1**  
+[Download the audited APK](release/v1.0.1/RollBacker-1.0.1-audited-final.apk) · [Release notes](RELEASE_NOTES_1.0.1.md) · [Audit report](AUDIT_REPORT.md)
 
 Developed and published by **Background Gremlin Group**  
 **Creating Unique Tools for Unique Individuals.**  
@@ -145,7 +145,7 @@ The interface preserves release-history navigation origin, restores selected nav
 
 The canonical Roll Backer icon source is the exact artwork supplied for this project. Its SHA-256 is `06d8d5fee7f9cdafe6ac297e41ec69101f76f23f1460284bb93db45a3f0d40c9`.
 
-Because the repository API stores the canonical binary source as a text-safe payload, it is committed at `binary-assets/branding/rollbacker-icon-source.jpg.b64`. `tools/materialize-assets.sh` reconstructs and verifies the exact source image before builds. The application launcher artwork payload is committed at `binary-assets/app/drawable/rollbacker_art.png.b64`, reconstructed as `app/src/main/res/drawable/rollbacker_art.png`, and verified against SHA-256 `efe8cae52cfd282c208781ab84779fb009f5ae30878752a50d6c6531dad9c557`.
+The canonical source artwork is stored as a checksum-verified build payload at `binary-assets/branding/rollbacker-icon-source.jpg.b64`. `tools/materialize-assets.sh` reconstructs and verifies the exact source image before builds. The application launcher artwork payload is stored at `binary-assets/app/drawable/rollbacker_art.png.b64`, reconstructed as `app/src/main/res/drawable/rollbacker_art.png`, and verified against SHA-256 `efe8cae52cfd282c208781ab84779fb009f5ae30878752a50d6c6531dad9c557`.
 
 Roll Backer has a minimum Android API level of 26, so its launcher uses the Android adaptive-icon resource directly. The supplied artwork is used full-bleed as the adaptive background with a transparent foreground. No white launcher cell or white padding is introduced by Roll Backer.
 
